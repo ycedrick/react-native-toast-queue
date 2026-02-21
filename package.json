@@ -5,6 +5,14 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycedrick/react-native-toast-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ycedrick/react-native-toast-queue/issues"
+  },
+  "homepage": "https://github.com/ycedrick/react-native-toast-queue#readme",
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
