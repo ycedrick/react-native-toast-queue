@@ -1,6 +1,6 @@
 {
   "name": "react-native-toast-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully type-safe, lightweight, and reusable toast/notification system for React Native with queue management.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -16,6 +16,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
+    "prepublishOnly": "npm run build",
     "dev": "tsup --watch",
     "lint": "tsc",
     "test": "jest"
